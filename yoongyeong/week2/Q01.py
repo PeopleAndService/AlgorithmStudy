@@ -16,3 +16,16 @@ while True:
         index_adventurer += num
 
 print(result)
+
+"""
+--책 풀이-- <내풀이는 틀린케이스가 있는거 같음>
+adventurer.sort()
+result = 0  # 총 그룹수
+count = 0  # 현재 그룹에 포함된 모험가의 수
+for i in adventurer:  # 공포도가 낮은 것 부터 하나씩 확인
+    count += 1
+    if count >= i:  # 현재 그룹에 포함된 모험가의 수가 현재의 공포도 이상이면 그룹 결성
+        result += 1
+        count = 0
+print(result)
+"""
