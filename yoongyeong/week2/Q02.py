@@ -8,7 +8,7 @@ result = int(S[0])
 
 for i in range(1, len(S)):
     num = int(S[i])
-    if result == 0 or result == 1 or num == 0 or num == 1:
+    if result == 0 or result == 1 or num == 0 or num == 1:  # result <= 1 or num <= 1이라고 적으면 코드 간략화 가능
         result += num
     else: result *= num
 
