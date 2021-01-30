@@ -53,6 +53,7 @@
 |주차|수호|윤경|재석|
 |:-:|:-:|:-:|:-:|
 |1주차|[주사위 굴리기](https://www.acmicpc.net/problem/14499)|[나무 제태크](https://www.acmicpc.net/problem/16235)|[기차가 어둠을 ~](https://www.acmicpc.net/problem/15787)|
+|2주차|[수 묶기](https://www.acmicpc.net/problem/1744)|[센서](https://www.acmicpc.net/problem/2212)|[신입사원](https://www.acmicpc.net/problem/1946)|
 
 
 ## 🙋‍♂️🙋‍♀️ 참여
