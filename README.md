@@ -67,6 +67,7 @@
 |2주차|[수 묶기](https://www.acmicpc.net/problem/1744)|[센서](https://www.acmicpc.net/problem/2212)|[신입사원](https://www.acmicpc.net/problem/1946)|
 |3주차|[선 긋기](https://www.acmicpc.net/problem/2170)|[로봇 프로젝트](https://www.acmicpc.net/problem/3649)|[전화번호 목록](https://www.acmicpc.net/problem/5052)|
 |4주차|[두 용액](https://www.acmicpc.net/problem/2470)|[기타 레슨](https://www.acmicpc.net/problem/2343)|[암기왕](https://www.acmicpc.net/problem/2776)|
+|DP|[포도주시식](https://www.acmicpc.net/problem/2156)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[상자넣기](https://www.acmicpc.net/problem/1965)|
 
 
 ## 🙋‍♂️🙋‍♀️ 참여
