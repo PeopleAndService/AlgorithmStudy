@@ -31,7 +31,7 @@
 
 ### 💻 문제풀이
 - 교재 공부가 끝나면 각자 주제와 연관된 문제 1개 선정 후 공유 (PS 사이트에서)
-- 선정한 문제는 모두 풀이 후 GitHub 커밋
+- 선정한 문제는 1주일동안 모두 풀이 후 GitHub 커밋
 - 모두 풀이가 끝나면 코드 리뷰 및 풀이 공유 진행
 
 ### 🌐 GitHub 규칙
@@ -42,23 +42,20 @@
 
 ## ⭐ 진행
 
-### 1주차
-**구현**<br/>
-21.01.20. ~ 21.01.27.<br/>
-### 2주차
-**그리디**<br/>
-21.01.27. ~ 21.02.03.<br/>
-### 3주차
-**정렬**<br/>
-21.02.03. ~ 21.02.10.<br/>
-### 4주차
-**이진탐색**<br/>
-21.02.10. ~ 21.02.17.<br/>
-### 다이나믹프로그래밍
-21.02.17. ~ 21.03.03<br/>
-### DFS/BFS
-21.03.03. ~ 21.03.17<br/>
-
+### 1주차-구현
+21.01.20. ~ 21.01.27.
+### 2주차-그리디
+21.01.27. ~ 21.02.03.
+### 3주차-정렬
+21.02.03. ~ 21.02.10.
+### 4주차-이진탐색
+21.02.10. ~ 21.02.17.
+### 5주차-DP
+21.02.17. ~ 21.03.03.
+### 6주차-DFS/BFS
+21.03.03. ~ 21.03.17.
+### 7주차-최단경로
+21.03.17. ~ 21.03.31.
 
 ### 문제풀이 모음
 |주차|수호|윤경|재석|
@@ -67,7 +64,9 @@
 |2주차|[수 묶기](https://www.acmicpc.net/problem/1744)|[센서](https://www.acmicpc.net/problem/2212)|[신입사원](https://www.acmicpc.net/problem/1946)|
 |3주차|[선 긋기](https://www.acmicpc.net/problem/2170)|[로봇 프로젝트](https://www.acmicpc.net/problem/3649)|[전화번호 목록](https://www.acmicpc.net/problem/5052)|
 |4주차|[두 용액](https://www.acmicpc.net/problem/2470)|[기타 레슨](https://www.acmicpc.net/problem/2343)|[암기왕](https://www.acmicpc.net/problem/2776)|
-|DP|[포도주시식](https://www.acmicpc.net/problem/2156)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[상자넣기](https://www.acmicpc.net/problem/1965)|
+|W5-DP|[포도주시식](https://www.acmicpc.net/problem/2156)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[상자넣기](https://www.acmicpc.net/problem/1965)|
+|W6-DFSBFS|생략|생략|생략|
+|W7-최단경로
 
 
 ## 🙋‍♂️🙋‍♀️ 참여
