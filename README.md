@@ -66,7 +66,7 @@
 |4주차|[두 용액](https://www.acmicpc.net/problem/2470)|[기타 레슨](https://www.acmicpc.net/problem/2343)|[암기왕](https://www.acmicpc.net/problem/2776)|
 |W5-DP|[포도주시식](https://www.acmicpc.net/problem/2156)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[상자넣기](https://www.acmicpc.net/problem/1965)|
 |W6-DFSBFS|생략|생략|생략|
-|W7-최단경로
+|W7-최단경로|[녹색 ~ 젤다지?](https://www.acmicpc.net/problem/4485)|[회장뽑기](https://www.acmicpc.net/problem/2660)|[운동](https://www.acmicpc.net/problem/1956)|
 
 
 ## 🙋‍♂️🙋‍♀️ 참여
