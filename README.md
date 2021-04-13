@@ -56,6 +56,8 @@
 21.03.03. ~ 21.03.17.
 ### 7주차-최단경로
 21.03.17. ~ 21.03.31.
+### 8주차-그래프이론
+21.03.31. ~ 21.04.14.
 
 ### 문제풀이 모음
 |주차|수호|윤경|재석|
@@ -67,6 +69,7 @@
 |W5-DP|[포도주시식](https://www.acmicpc.net/problem/2156)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[상자넣기](https://www.acmicpc.net/problem/1965)|
 |W6-DFSBFS|생략|생략|생략|
 |W7-최단경로|[녹색 ~ 젤다지?](https://www.acmicpc.net/problem/4485)|[회장뽑기](https://www.acmicpc.net/problem/2660)|[운동](https://www.acmicpc.net/problem/1956)|
+|W8-Graph|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[전력난](https://www.acmicpc.net/problem/6497)|[게임 개발](https://www.acmicpc.net/problem/1516)|
 
 
 ## 🙋‍♂️🙋‍♀️ 참여
