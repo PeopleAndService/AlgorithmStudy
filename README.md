@@ -42,36 +42,38 @@
 
 ## ⭐ 진행
 
-### 1주차-구현
+### 1. 구현
 21.01.20. ~ 21.01.27.
-### 2주차-그리디
+### 2. 그리디
 21.01.27. ~ 21.02.03.
-### 3주차-정렬
+### 3. 정렬
 21.02.03. ~ 21.02.10.
-### 4주차-이진탐색
+### 4. 이진탐색
 21.02.10. ~ 21.02.17.
-### 5주차-DP
+### 5. DP
 21.02.17. ~ 21.03.03.
-### 6주차-DFS/BFS
+### 6. DFS/BFS
 21.03.03. ~ 21.03.17.
-### 7주차-최단경로
+### 7. 최단경로
 21.03.17. ~ 21.03.31.
-### 8주차-그래프이론
+### 8. 그래프이론
 21.03.31. ~ 21.04.14.
-### 9주차-상반기 삼성 기출
+### 9. 2020 상반기 삼성 기출
 21.04.14. ~ 21.04.28.
+### 10. 동빈북 정리 및 알고리즈 탑노트 제작
+21.04.28. ~ 21.05.11.
 
 ### 문제풀이 모음
 |주차|수호|윤경|재석|
 |:-:|:-:|:-:|:-:|
-|1주차|[주사위 굴리기](https://www.acmicpc.net/problem/14499)|[나무 제태크](https://www.acmicpc.net/problem/16235)|[기차가 어둠을 ~](https://www.acmicpc.net/problem/15787)|
-|2주차|[수 묶기](https://www.acmicpc.net/problem/1744)|[센서](https://www.acmicpc.net/problem/2212)|[신입사원](https://www.acmicpc.net/problem/1946)|
-|3주차|[선 긋기](https://www.acmicpc.net/problem/2170)|[로봇 프로젝트](https://www.acmicpc.net/problem/3649)|[전화번호 목록](https://www.acmicpc.net/problem/5052)|
-|4주차|[두 용액](https://www.acmicpc.net/problem/2470)|[기타 레슨](https://www.acmicpc.net/problem/2343)|[암기왕](https://www.acmicpc.net/problem/2776)|
-|W5-DP|[포도주시식](https://www.acmicpc.net/problem/2156)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[상자넣기](https://www.acmicpc.net/problem/1965)|
-|W6-DFSBFS|생략|생략|생략|
-|W7-최단경로|[녹색 ~ 젤다지?](https://www.acmicpc.net/problem/4485)|[회장뽑기](https://www.acmicpc.net/problem/2660)|[운동](https://www.acmicpc.net/problem/1956)|
-|W8-Graph|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[전력난](https://www.acmicpc.net/problem/6497)|[게임 개발](https://www.acmicpc.net/problem/1516)|
+|구현|[주사위 굴리기](https://www.acmicpc.net/problem/14499)|[나무 제태크](https://www.acmicpc.net/problem/16235)|[기차가 어둠을 ~](https://www.acmicpc.net/problem/15787)|
+|그리디|[수 묶기](https://www.acmicpc.net/problem/1744)|[센서](https://www.acmicpc.net/problem/2212)|[신입사원](https://www.acmicpc.net/problem/1946)|
+|정렬|[선 긋기](https://www.acmicpc.net/problem/2170)|[로봇 프로젝트](https://www.acmicpc.net/problem/3649)|[전화번호 목록](https://www.acmicpc.net/problem/5052)|
+|이진탐색|[두 용액](https://www.acmicpc.net/problem/2470)|[기타 레슨](https://www.acmicpc.net/problem/2343)|[암기왕](https://www.acmicpc.net/problem/2776)|
+|DP|[포도주시식](https://www.acmicpc.net/problem/2156)|[카드 구매하기](https://www.acmicpc.net/problem/11052)|[상자넣기](https://www.acmicpc.net/problem/1965)|
+|DFSBFS|생략|생략|생략|
+|최단경로|[녹색 ~ 젤다지?](https://www.acmicpc.net/problem/4485)|[회장뽑기](https://www.acmicpc.net/problem/2660)|[운동](https://www.acmicpc.net/problem/1956)|
+|Graph|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[전력난](https://www.acmicpc.net/problem/6497)|[게임 개발](https://www.acmicpc.net/problem/1516)|
 
 
 ## 🙋‍♂️🙋‍♀️ 참여
