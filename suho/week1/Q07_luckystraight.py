@@ -1,3 +1,10 @@
+"""
+구현, 문자열
+럭키 스트레이트 (백준 18406 브론즈2)
+제한 : 1초 / 256MB
+제출 : 72ms / 28776KB
+"""
+
 import sys
 
 N = list(map(int, sys.stdin.readline().rstrip()))

@@ -1,3 +1,11 @@
+"""
+구현(완전 탐색)
+치킨 배달 (백준 15686 골드5)
+제한 : 1초 / 512MB
+제출 : 716ms / 29028KB
+삼성전자 SW 역량테스트
+"""
+
 import sys
 from itertools import combinations
 

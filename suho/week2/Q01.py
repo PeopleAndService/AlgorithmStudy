@@ -1,3 +1,9 @@
+"""
+그리디
+모험가 길드
+제한 : 1초 / 128MB
+"""
+
 N = int(input())
 people = list(map(int, input().split()))
 people.sort()

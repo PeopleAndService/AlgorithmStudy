@@ -1,3 +1,11 @@
+"""
+구현(시뮬레이션)
+뱀 (백준 3190 골드5)
+제한 : 1초 / 128MB
+제출 : 216ms / 32764KB
+삼성전자 SW 역량테스트
+"""
+
 import sys
 from collections import deque
 

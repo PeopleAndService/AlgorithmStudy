@@ -1,3 +1,10 @@
+"""
+구현, 비트마스킹
+백준 15787 기차가 어둠을 헤치고 은하수를 실버2
+제한 : 1초 / 512MB
+제출 : 500ms / 67558KB
+"""
+
 import sys
 from collections import deque
 

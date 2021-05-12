@@ -1,3 +1,10 @@
+"""
+그리디
+만들 수 없는 금액
+제한 : 1초 / 128MB
+K 대회 기출
+"""
+
 N = int(input())
 coins = list(map(int, input().split()))
 

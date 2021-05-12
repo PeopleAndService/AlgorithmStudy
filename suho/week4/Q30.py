@@ -1,28 +1,11 @@
+"""
+이진 탐색
+가사 검색
+제한 : 1초 / 128MB
+프로그래머스 2020 카카오 신입 공채 1차 레벨4
+"""
+
 import bisect
-#
-#
-# def find_start(list, key):
-#     start = 0
-#     end = len(list)
-#     while start < end:
-#         mid = (start + end) // 2
-#         if list[mid] < key:
-#             start = mid + 1
-#         else:
-#             end = mid
-#     return start
-#
-#
-# def find_end(list, key):
-#     start = 0
-#     end = len(list)
-#     while start < end:
-#         mid = (start + end) // 2
-#         if key < list[mid]:
-#             end = mid
-#         else:
-#             start = mid + 1
-#     return start
 
 
 def solution(words, queries):

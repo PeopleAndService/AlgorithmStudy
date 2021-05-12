@@ -1,3 +1,10 @@
+"""
+DP
+금광
+제한 : 1초 / 128MB
+Flipkart 인터뷰
+"""
+
 import sys
 
 T = int(input())
