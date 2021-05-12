@@ -1,3 +1,10 @@
+"""
+구현
+외벽 점검
+제한 : 1초 / 128MB
+프로그래머스 2020 카카오 신입 공채 1차 레벨3
+"""
+
 # 답 봤음
 from itertools import permutations
 

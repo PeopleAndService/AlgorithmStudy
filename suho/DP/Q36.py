@@ -1,3 +1,10 @@
+"""
+DP, 최소 편집 거리
+편집 거리
+제한 : 2초 / 128MB
+Goldman Sachs 인터뷰
+"""
+
 A = input()
 B = input()
 n = len(A)

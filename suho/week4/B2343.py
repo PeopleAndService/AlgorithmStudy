@@ -1,3 +1,10 @@
+"""
+이진 탐색
+백준 2343 기타 레슨 실버1
+제한 : 2초 / 128MB
+제출 : 828ms / 40320KB
+"""
+
 import sys
 
 N, M = map(int, input().split())

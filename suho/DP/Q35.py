@@ -1,3 +1,10 @@
+"""
+DP
+못생긴 수
+제한 : 1초 / 128MB
+Google 인터뷰
+"""
+
 n = int(input())
 result = [0] * n
 result[0] = 1

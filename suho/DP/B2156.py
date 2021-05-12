@@ -1,3 +1,10 @@
+"""
+DP
+백준 2156 포도주 시식 실버1
+제한 : 2초 / 128MB
+제출 : 456ms / 29284KB
+"""
+
 n = int(input())
 grape = [0]
 for _ in range(n):

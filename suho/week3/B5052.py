@@ -1,3 +1,11 @@
+"""
+정렬, 문자열, 트라이
+백준 5052 전화번호 목록 골드4
+제한 : 1초 / 256MB
+제출 : 420ms / 134224KB (PyPy3)
+Python3 제출 시간초과 발생
+"""
+
 t = int(input())
 for _ in range(t):
     n = int(input())

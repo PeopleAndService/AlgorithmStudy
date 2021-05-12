@@ -1,3 +1,11 @@
+"""
+정렬
+실패율
+제한 : 1초 / 128MB
+프로그래머스 2019 카카오 신입 공채 1차 레벨1
+"""
+
+
 def solution(N, stages):
     answer = []
     user = len(stages)

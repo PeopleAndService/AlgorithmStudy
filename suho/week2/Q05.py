@@ -1,3 +1,10 @@
+"""
+그리디
+볼링공 고르기
+제한 : 1초 / 128MB
+2019 SW 마에스트로 코딩 테스트
+"""
+
 N, M = map(int, input().split())
 balls = list(map(int, input().split()))
 comb = []

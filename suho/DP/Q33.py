@@ -1,3 +1,11 @@
+"""
+DP, 완전 탐색
+퇴사 (백준 14051 실버4)
+제한 : 2초 / 512MB
+제출 : 64ms / 28776KB
+삼성전자 SW 역량테스트
+"""
+
 n = int(input())
 schedule = [list(map(int, input().split())) for _ in range(n)]
 t = list(map(lambda x: x[0], schedule))

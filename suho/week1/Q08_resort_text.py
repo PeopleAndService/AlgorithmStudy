@@ -1,3 +1,10 @@
+"""
+구현
+문자열 재정렬
+제한 : 1초 / 128MB
+페이스북
+"""
+
 import sys
 
 input_str = sys.stdin.readline().rstrip()
