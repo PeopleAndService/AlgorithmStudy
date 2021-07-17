@@ -1,21 +1,17 @@
-# ✏ 알고리즘 스터디
+# ✏ 동빈북 알고리즘 스터디
 
 ## 📚교재 및 사이트
 
-### 📘 교재
-이것이 취업을 위한 코딩테스트다 with 파이썬. 나동빈. 한빛미디어
-
+### 📘 이것이 취업을 위한 코딩테스트다 with 파이썬. 나동빈. 한빛미디어
 <img src="http://image.kyobobook.co.kr/images/book/xlarge/077/x9791162243077.jpg" width="250" height="300" />
-
 [교재 GitHub링크](https://github.com/ndb796/python-for-coding-test)
 
 ### 🔗 PS 사이트
-
 [Baekjoon](https://www.acmicpc.net/)<br/>
 [Programmers](https://programmers.co.kr/)
 
 ## 💡 스터디 방법
-- 알고리즘 주제 하나를 선정하여 공부 및 문제풀이 진행
+- 동빈부 알고리즘 분류와 연관된 공부 및 문제풀이
 - 각자 폴더에 코드 업로드
 - 1문제 풀이에 2시간 넘어가면 풀이 보기
 - 이해 안되는건 모임 때 서로 질문
@@ -29,7 +25,7 @@
 - 1주일동안 교재 공부 각자 진행
 - 교재 공부 중 교재 풀이와 다르게 풀었다면 코드 업로드 후 미팅때 공유
 
-### 💻 문제풀이
+### 💻 문제 풀이
 - 교재 공부가 끝나면 각자 주제와 연관된 문제 1개 선정 후 공유 (PS 사이트에서)
 - 선정한 문제는 1주일동안 모두 풀이 후 GitHub 커밋
 - 모두 풀이가 끝나면 코드 리뷰 및 풀이 공유 진행
@@ -74,7 +70,6 @@
 |DFSBFS|생략|생략|생략|
 |최단경로|[녹색 ~ 젤다지?](https://www.acmicpc.net/problem/4485)|[회장뽑기](https://www.acmicpc.net/problem/2660)|[운동](https://www.acmicpc.net/problem/1956)|
 |Graph|[네트워크 연결](https://www.acmicpc.net/problem/1922)|[전력난](https://www.acmicpc.net/problem/6497)|[게임 개발](https://www.acmicpc.net/problem/1516)|
-
 
 ## 🙋‍♂️🙋‍♀️ 참여
 
