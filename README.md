@@ -17,7 +17,7 @@
 [Programmers](https://programmers.co.kr/)
 
 <details>
-  <summary>21.01. ~ 21.05. 스터디 진행</summary>
+  <summary>21.01. ~ 21.05. 스터디 시즌1 진행</summary>
   <div markdown = "1">
     
   ### 💡 스터디 방법
