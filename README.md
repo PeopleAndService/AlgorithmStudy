@@ -1,13 +1,17 @@
-# ✏ 동빈북 알고리즘 스터디
+# 알고리즘 스터디
 
 ## 📚교재 및 사이트
 
-### 📘 이것이 취업을 위한 코딩테스트다 with 파이썬. 나동빈. 한빛미디어
-<img src="http://image.kyobobook.co.kr/images/book/xlarge/077/x9791162243077.jpg" width="250" height="300" />
+~~📘 이것이 취업을 위한 코딩테스트다 with 파이썬. 나동빈. 한빛미디어~~
+
+[![](http://image.kyobobook.co.kr/images/book/xlarge/077/x9791162243077.jpg)](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243077&orderClick=LEa&Kc=)
+
 [교재 GitHub링크](https://github.com/ndb796/python-for-coding-test)
 
 ### 🔗 PS 사이트
-[Baekjoon](https://www.acmicpc.net/)<br/>
+
+[Baekjoon](https://www.acmicpc.net/)
+
 [Programmers](https://programmers.co.kr/)
 
 ## 💡 스터디 방법
