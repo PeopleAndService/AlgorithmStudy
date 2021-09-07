@@ -17,7 +17,7 @@
 [Programmers](https://programmers.co.kr/)
 
 <details>
-  <summary>21.01. ~ 21.05. 스터디 시즌1 진행</summary>
+  <summary>21.01. ~ 21.05. 스터디 시즌 1 진행</summary>
   <div markdown = "1">
     
   ### 💡 스터디 방법
@@ -84,7 +84,7 @@
   </div>
 </details> 
 
-## 스터디 시즌2 21.09 ~
+## 스터디 시즌 2 21.09 ~
 
 ### Rules
 - 매주 화요일 오후 2시, 5문제 3시간 모의 테스트 진행
