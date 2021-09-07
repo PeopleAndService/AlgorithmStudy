@@ -1,3 +1,9 @@
+"""
+DP
+개미 전사
+제한 : 1초 / 128MB
+"""
+
 import sys
 
 N = int(input())

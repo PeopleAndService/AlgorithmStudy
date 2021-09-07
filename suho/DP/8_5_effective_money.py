@@ -1,3 +1,9 @@
+"""
+DP
+효율적인 화폐 구성
+제한 : 1초 / 128MB
+"""
+
 N, M = map(int, input().split())
 money = []
 for _ in range(N):

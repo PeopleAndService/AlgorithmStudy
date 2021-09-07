@@ -1,3 +1,9 @@
+"""
+DP
+바닥 공사
+제한 : 1초 / 128MB
+"""
+
 N = int(input())
 result = [0] * (N+1)
 result[1] = 1

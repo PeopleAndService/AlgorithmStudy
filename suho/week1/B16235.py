@@ -1,3 +1,10 @@
+"""
+구현(시뮬레이션)
+백준 16235 나무 재테크 골드4
+제한 : 1.3초 / 512MB
+제출 : 608ms / 146008KB
+"""
+
 import sys
 
 N, M, K = map(int, sys.stdin.readline().rstrip().split())

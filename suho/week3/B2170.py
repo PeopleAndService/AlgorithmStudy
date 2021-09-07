@@ -1,3 +1,10 @@
+"""
+정렬, 스위핑
+백준 2170 선 긋기 골드5
+제한 : 1초 / 192MB
+제출 : 3200ms / 168584KB
+"""
+
 import sys
 
 N = int(sys.stdin.readline().rstrip())

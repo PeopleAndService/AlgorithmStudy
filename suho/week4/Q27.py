@@ -1,30 +1,12 @@
+"""
+이진 탐색
+정렬된 배열에서 특정 수의 개수 구하기
+제한 : 1초 / 128MB
+Zoho 인터뷰
+"""
+
 import sys
 import bisect
-#
-#
-# def find_start(list, key):
-#     start = 0
-#     end = len(list)
-#     while start < end:
-#         mid = (start + end) // 2
-#         if list[mid] < key:
-#             start = mid + 1
-#         else:
-#             end = mid
-#     return start
-#
-#
-# def find_end(list, key):
-#     start = 0
-#     end = len(list)
-#     while start < end:
-#         mid = (start + end) // 2
-#         if key < list[mid]:
-#             end = mid
-#         else:
-#             start = mid + 1
-#     return start
-
 
 N, x = map(int, input().split())
 nums = list(map(int, sys.stdin.readline().rstrip().split()))

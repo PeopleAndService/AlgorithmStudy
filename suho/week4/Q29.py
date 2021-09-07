@@ -1,3 +1,10 @@
+"""
+이진 탐색, 파라메트릭 서치
+공유기 설치 (백준 2110 실버1)
+제한 : 2초 / 128MB
+제출 : 4364ms / 32628KB
+"""
+
 N, C = map(int, input().split())
 home = [int(input()) for _ in range(N)]
 home.sort()

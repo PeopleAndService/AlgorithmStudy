@@ -1,3 +1,10 @@
+"""
+구현, 문자열
+문자열 압축
+제한 : 1초 / 128MB
+프로그래머스 2020 카카오 신입 공채 레벨2
+"""
+
 import sys
 
 s = sys.stdin.readline().rstrip()

@@ -1,3 +1,10 @@
+"""
+그리디, 정렬
+백준 1946 신입 사원 실버1
+제한 : 2초 / 256MB
+제출 : 6504ms / 69000KB
+"""
+
 import sys
 T = int(sys.stdin.readline().rstrip())
 for _ in range(T):
