@@ -1,3 +1,5 @@
+package programmers.level1
+
 class RecommendAJob {
     fun solution(table: Array<String>, languages: Array<String>, preference: IntArray): String {
         var answer = Pair<Int, String>(0, "")
