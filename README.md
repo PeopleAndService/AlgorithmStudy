@@ -16,6 +16,9 @@
 
 [Programmers](https://programmers.co.kr/)
 
+
+## 스터디 시즌 1 21.01. ~ 21.05.
+
 <details>
   <summary>21.01. ~ 21.05. 스터디 시즌 1 진행</summary>
   <div markdown = "1">
@@ -84,6 +87,7 @@
   </div>
 </details> 
 
+
 ## 스터디 시즌 2 21.09 ~
 
 ### Rules
@@ -97,8 +101,8 @@
 - 테스트 하지 않는 날에는 1일 1문제 풀이 후 커밋 인증 (평일엔 안하면 벌금 100원)
 - 테스트 하지 않는 날 푸는 문제 : 테스트 때 못 푼 문제 풀거나 백준 문제집(Dynamic Algorithm) 참고
 
-### 모의 코딩 테스트 모음
-|회차|날짜|1문제|2문제|3문제|4문제|5문제|
+### 모의 코딩 테스트 문제 모음
+|회차|일시|1문제|2문제|3문제|4문제|5문제|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1회|21.09.14.|[효율적인 해킹](https://www.acmicpc.net/problem/1325)|[안녕](https://www.acmicpc.net/problem/1535)|[크리보드](https://www.acmicpc.net/problem/11058)|[문자열 폭발](https://www.acmicpc.net/problem/9935)|[빵집](https://www.acmicpc.net/problem/3109)|
 
