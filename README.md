@@ -105,6 +105,7 @@
 |회차|일시|1문제|2문제|3문제|4문제|5문제|
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1회|21.09.14.|[효율적인 해킹](https://www.acmicpc.net/problem/1325)|[안녕](https://www.acmicpc.net/problem/1535)|[크리보드](https://www.acmicpc.net/problem/11058)|[문자열 폭발](https://www.acmicpc.net/problem/9935)|[빵집](https://www.acmicpc.net/problem/3109)|
+|2회|21.09.18.|[균형잡힌 세상](https://www.acmicpc.net/problem/4949)|[보이는 점의 개수](https://www.acmicpc.net/problem/2725)|[개똥벌레](https://www.acmicpc.net/problem/3020)|[빙산](https://www.acmicpc.net/problem/2573)|[제곱ㄴㄴ수](https://www.acmicpc.net/problem/1016)|
 
 [Notion Page](https://www.notion.so/yg323/bafb2dc0df044e38a94064138de2b623)
 
