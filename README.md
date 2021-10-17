@@ -91,10 +91,10 @@
 ## 스터디 시즌 2 21.09 ~
 
 ### Rules
-- 매주 화요일 오후 2시 5문제 3시간 테스트
+- 매주 화요일 오후 2시 ~ 오후 5시 5문제 3시간 테스트
 - 테스트 할 때는 백준 티어 표시와 알고리즘 분류 표시 설정 끄기
 - 테스트 후 에는 랜덤 문제 풀이 발표 진행
-- 문제 풀이 발표중간에 코드 비난 금지, 시간 이렇게 풀면 더 빠를거 같다 식의 피드백 금지 → 알고리즘과 로직을 이해하는데 집중
+- 문제 풀이 발표 중간에 코드 비난 금지, 시간 이렇게 풀면 더 빠를거 같다 식의 피드백 금지 → 알고리즘과 로직을 이해하는데 집중
 - 문제를 못풀었거나 발표할 문제가 없어서 발표를 못한 경우 걸린 문제 + 못 푼 문제를 다음 테스트 전까지 풀어오기
 - 표준 문제집 : 실버 4 이상 ~ 플래 5 이하로 5문제 구성 (실버 최대 2문제, 골드 최대 4문제, 플래 최대 1문제) + 본인이 풀어본 문제는 제외
 - 문제집 제작은 1주일에 1명, 표준 문제집과 벗어나게 구성해도 좋음.
@@ -106,6 +106,8 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |1회|21.09.14.|[효율적인 해킹](https://www.acmicpc.net/problem/1325)|[안녕](https://www.acmicpc.net/problem/1535)|[크리보드](https://www.acmicpc.net/problem/11058)|[문자열 폭발](https://www.acmicpc.net/problem/9935)|[빵집](https://www.acmicpc.net/problem/3109)|
 |2회|21.09.18.|[균형잡힌 세상](https://www.acmicpc.net/problem/4949)|[보이는 점의 개수](https://www.acmicpc.net/problem/2725)|[개똥벌레](https://www.acmicpc.net/problem/3020)|[빙산](https://www.acmicpc.net/problem/2573)|[제곱ㄴㄴ수](https://www.acmicpc.net/problem/1016)|
+|3회|21.09.28.|[점프](https://www.acmicpc.net/problem/1890)|[사다리 타기](https://www.acmicpc.net/problem/2469)|[용액 합성하기](https://www.acmicpc.net/problem/14921)|[휴게소 세우기](https://www.acmicpc.net/problem/1477)|[회의준비](https://www.acmicpc.net/problem/2610)|
+|4회|21.10.05.|[N번째 큰 수](https://www.acmicpc.net/problem/2075)|[히오스 프로게이머](https://www.acmicpc.net/problem/16564)|[랜선 자르기](https://www.acmicpc.net/problem/1654)|[기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787)|[최단경로](https://www.acmicpc.net/problem/1753)|
 
 [Notion Page](https://www.notion.so/yg323/bafb2dc0df044e38a94064138de2b623)
 
