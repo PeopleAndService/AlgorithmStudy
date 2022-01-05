@@ -4,8 +4,8 @@ import kotlin.math.abs
 import kotlin.math.pow
 
 fun main(args: Array<String>): Unit {
-    println(solution01(-1, -3))
-    println(solution01x01(1, 4))
+    println(solution09(5))
+    println(solution09x01(6))
 }
 
 // 두 정수 사이의 합
@@ -89,3 +89,7 @@ fun solution08(num: Int) = if (num % 2 == 0) "Even" else "Odd"
 
 fun solution08x01(num: Int) = if (num.and(1) == 0) "Even" else "Odd"
 
+// 수박수박수박수박수박수?
+fun solution09(n: Int): String = if (n % 2 == 0) "수박".repeat(n/2) else "수박".repeat(n/2) + "수"
+
+fun solution09x01(n: Int): String = String(CharArray(n) { i -> if (i % 2 == 0) '수' else '박' })
