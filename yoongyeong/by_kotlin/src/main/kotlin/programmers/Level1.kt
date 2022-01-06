@@ -93,3 +93,23 @@ fun solution08x01(num: Int) = if (num.and(1) == 0) "Even" else "Odd"
 fun solution09(n: Int): String = if (n % 2 == 0) "수박".repeat(n/2) else "수박".repeat(n/2) + "수"
 
 fun solution09x01(n: Int): String = String(CharArray(n) { i -> if (i % 2 == 0) '수' else '박' })
+
+
+// 직사각형 별 찍기
+fun solution10() {
+    val (a, b) = readLine()!!.split(' ').map(String::toInt)
+    for (i in 1..b) println("*".repeat(a))
+}
+
+// 하샤드 수
+fun solution11(x: Int): Boolean {
+    var answer = 0
+    for (x_str in x.toString()) {
+        answer += (x_str.toString()).toInt()
+    }
+    return x % answer == 0
+}
+
+fun solution11x01(x: Int): Boolean {
+    return x % x.toString().fold(0){acc, c -> acc + c.toInt() - 48} == 0
+}
