@@ -1,11 +1,6 @@
 package kotlin200Q
 
-import java.text.FieldPosition
-
 typealias NewInt = Int
-
-class Part1 {
-}
 
 fun main(args: Array<String>){
     println("Hello, Kotlin")
@@ -47,25 +42,6 @@ fun main(args: Array<String>){
     println(getSumOf(1, 2, 3))
     println(getSumOf(5, 6))
 
-    val person = object {
-        val name: String = "홍길동"
-        val age: Int = 36
-    }
-
-    println(person.name)
-
-    println("${Time(15, 6).second} 초")
-    println("${Time(6, 3, 17).second} 초")
-
-    val person1 = Person1("Kotlin", "2016-02-15")
-    println(person1[0])
-    println(person1[1])
-    println(person1[-1])
-
-    person1[0] = "Java"
-    println(person1.name)
-    person1(60)
-
 }
 
 fun getSumOf(vararg numbers: Int): Int {
@@ -78,54 +54,4 @@ fun getSumOf(vararg numbers: Int): Int {
     }
 
     return sum
-}
-
-class Person constructor(name: String, age: Int) {
-    val name: String
-    val age: Int
-
-    init {
-        this.name = name
-        this.age = age
-    }
-}
-
-class Car(val name: String, val speed: Int = 0)
-
-class Time(val second: Int) {
-    init {
-        println("init 블록 실행 중")
-    }
-
-    constructor(minute: Int, second: Int): this(minute * 60 + second) {
-        println("보조 생성자 1 실행 중")
-    }
-
-    constructor(hour: Int, minute: Int, second: Int): this(hour * 60 + minute, second) {
-        println("보조 생성자 2 실행 중")
-    }
-
-    init {
-        println("또 다른 init 블록 실행 중")
-    }
-}
-
-class Person1(var name: String, var birthday: String) {
-    operator fun get(position: Int): String = when (position) {
-        0 -> name
-        1 -> birthday
-        else -> "알 수 없음"
-    }
-
-    operator fun set(position: Int, value: String) {
-        when (position) {
-            0 -> name = value
-            1 -> birthday = value
-        }
-    }
-
-    operator fun invoke(value: Int) {
-        println(value)
-        println("name: $name, birthday: $birthday")
-    }
 }
