@@ -1,5 +1,8 @@
 package kotlin200Q
 
+import java.lang.Exception
+import java.lang.NumberFormatException
+
 fun main(args: Array<String>) {
     val person = object {
         val name: String = "홍길동"
@@ -25,6 +28,12 @@ fun main(args: Array<String>) {
 
     val person2 = Person2("홍길동", 35)
     val student: Person2 = Student("김길동", 23, 20171217)
+
+    val obj: Person1? = null
+    obj?.name = "김밥"
+
+    println("student is Student : ${student is Student}")
+    println("student is Person2 : ${student is Person2}")
 
 }
 
@@ -98,4 +107,35 @@ class BBB: AAA() {
         super.func()
         println("BBB")
     }
+}
+
+fun tryCatch(){
+    try {
+        val str = "abcd"
+        val num = str.toInt()
+        println(num)
+    } catch (e: NumberFormatException) {
+        println("문자열을 숫자로 변경하지 못함")
+    } finally {
+        println("프로그램 종료")
+    }
+}
+
+fun throwTest() {
+    try {
+        something()
+    } catch (e: Exception) {
+        println(e.message)
+    }
+}
+
+fun something() {
+    val num1 = 10
+    val num2 = 0
+    div(num1, num2)
+}
+
+fun div(a: Int, b: Int): Int {
+    if (b == 0) throw Exception("0으로 나눌 수 없습니다.")
+    return a / b
 }

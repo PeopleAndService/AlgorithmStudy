@@ -113,3 +113,12 @@ fun solution11(x: Int): Boolean {
 fun solution11x01(x: Int): Boolean {
     return x % x.toString().fold(0){acc, c -> acc + c.toInt() - 48} == 0
 }
+
+// 핸드폰 번호 가리기
+fun solution12(phone_number: String): String {
+    return "*".repeat(phone_number.length-4) + phone_number.slice(phone_number.length-4 until phone_number.length)
+}
+
+fun solution12x01(phone_number: String): String {
+    return "${"".padStart(phone_number.length - 4, '*')}${phone_number.takeLast(4)}"
+}
