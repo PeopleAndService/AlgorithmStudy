@@ -122,3 +122,21 @@ fun solution12(phone_number: String): String {
 fun solution12x01(phone_number: String): String {
     return "${"".padStart(phone_number.length - 4, '*')}${phone_number.takeLast(4)}"
 }
+
+// K번째 수
+fun solution13(array: IntArray, commands: Array<IntArray>): IntArray {
+    val answer = arrayListOf<Int>()
+    for ((i, j, k) in commands) {
+        answer.add(array.slice(i-1 until j).sorted()[k-1])
+    }
+    return answer.toIntArray()
+}
+
+fun solution13x01(array: IntArray, commands: Array<IntArray>): IntArray {
+    return commands.map { (i, j, k) ->
+        array.slice(i-1 until j).sorted()[k - 1]
+    }.toIntArray()
+}
+
+// 3진법 뒤집기
+fun solution14(n: Int) = n.toString(3).reversed().toInt(3)

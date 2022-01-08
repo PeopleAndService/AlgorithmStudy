@@ -35,6 +35,12 @@ fun main(args: Array<String>) {
     println("student is Student : ${student is Student}")
     println("student is Person2 : ${student is Person2}")
 
+    println("1234567890".isNumber())
+    println("5000원".isNumber())
+
+    println("1234567890".isLarge)
+    println("5000원".isLarge)
+
 }
 
 class Person constructor(name: String, age: Int) {
@@ -139,3 +145,15 @@ fun div(a: Int, b: Int): Int {
     if (b == 0) throw Exception("0으로 나눌 수 없습니다.")
     return a / b
 }
+
+fun String.isNumber(): Boolean { // 문자열이 숫자로만 이루어져있는지 판단하는 확장 함수
+    var i = 0
+    while (i < this.length) {
+        if (this[i] !in '0'..'9') return false
+        i += 1
+    }
+    return true
+}
+
+val String.isLarge: Boolean
+    get() = this.length >= 10
