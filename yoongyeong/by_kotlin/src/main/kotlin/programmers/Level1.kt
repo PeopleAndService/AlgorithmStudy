@@ -140,3 +140,10 @@ fun solution13x01(array: IntArray, commands: Array<IntArray>): IntArray {
 
 // 3진법 뒤집기
 fun solution14(n: Int) = n.toString(3).reversed().toInt(3)
+
+// 부족한 금액 계산하기
+fun solution15(price: Long, money: Int, count: Int): Long {
+    val priceL = price.toLong()
+    return if ((priceL * (count + 1) * count / 2) > money) (priceL * (count + 1) * count / 2 - money)
+    else 0
+}
