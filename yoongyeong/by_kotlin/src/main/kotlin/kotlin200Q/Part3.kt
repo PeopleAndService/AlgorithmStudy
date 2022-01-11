@@ -107,3 +107,27 @@ class Outer(private val value: Int) {
 }
 
 data class Employee(val name: String, val age: Int, val salary: Int)
+
+fun literal() {
+    val instantFunc: (Int) -> Unit
+    instantFunc = {number: Int ->
+        println("Hello $number")
+    }
+    instantFunc(33)
+    instantFunc.invoke(33)
+}
+
+fun anonymous_ex() {
+    val instanceFunc: (Int) -> Unit = fun(number: Int): Unit{
+        println("Hello $number")
+    }
+}
+
+fun plus(a: Int, b: Int) = println("plus 호출됨 ${a+b}")
+
+object Object {fun minus(a: Int, b: Int) = println("Object의 minus 호출됨 ${a-b}")}
+
+class Class {fun average(a: Int, b: Int) = println("Class average 호출됨 ${(a+b)/2}")}
+
+fun referenceEx() {
+}
