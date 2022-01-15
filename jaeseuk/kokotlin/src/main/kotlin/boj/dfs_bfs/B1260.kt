@@ -20,7 +20,7 @@ fun main() {
     bfs(graph, visited, v)
 }
 
-fun dfs(graph: List<MutableList<Int>>, visited: MutableList<Boolean>, start: Int) {
+private fun dfs(graph: List<MutableList<Int>>, visited: MutableList<Boolean>, start: Int) {
     print("$start ")
     visited[start] = true
 
@@ -29,7 +29,7 @@ fun dfs(graph: List<MutableList<Int>>, visited: MutableList<Boolean>, start: Int
     }
 }
 
-fun bfs(graph: List<MutableList<Int>>, visited: MutableList<Boolean>, start: Int) {
+private fun bfs(graph: List<MutableList<Int>>, visited: MutableList<Boolean>, start: Int) {
     val q = LinkedList<Int>()
     q.add(start)
 
