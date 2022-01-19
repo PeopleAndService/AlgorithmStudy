@@ -32,6 +32,27 @@ fun main(args: Array<String>){
     println("name: $name, salary: $salary")
 
     val inf: Double = Double.POSITIVE_INFINITY
+
+    referenceEx()
+
+    val f: () -> Unit = returnFunc(30)
+    f()
+
+    val makeSure: Int.(left: Int, right: Int) -> Int
+    makeSure = {left, right ->
+        when {
+            this < left -> left
+            this > right -> right
+            else -> this
+        }
+    }
+
+    println(15.makeSure(20, 40))
+    println(18.makeSure(0, 50))
+    println(25.makeSure(0, 19))
+
+    val func:() -> Int = toFunction<Int>(1107)
+    println(func())
 }
 
 object People {
@@ -130,4 +151,35 @@ object Object {fun minus(a: Int, b: Int) = println("Object의 minus 호출됨 ${
 class Class {fun average(a: Int, b: Int) = println("Class average 호출됨 ${(a+b)/2}")}
 
 fun referenceEx() {
+    println("함수 참조 예제")
+    var instanceFunc: (Int, Int) -> Unit
+    instanceFunc = ::plus
+    instanceFunc(60, 27)
+
+    instanceFunc = Object::minus
+    instanceFunc(36, 12)
+
+    instanceFunc = Class()::average
+    instanceFunc(25, 15)
 }
+
+fun decorate(task: () -> Unit) {
+    println("===작업 시작===")
+    task()
+    println("===작업 끝===")
+}
+
+fun higherOrderEx() {
+    decorate {
+        val a = 10; val b = 5
+        println("$a + $b = ${a+b}")
+    }
+    decorate({
+        println("some")
+        println("tasks")
+    })
+}
+
+fun returnFunc(num: Int): () -> Unit = { println(num)}
+
+fun <T> toFunction(value: T): () -> T = {value}
