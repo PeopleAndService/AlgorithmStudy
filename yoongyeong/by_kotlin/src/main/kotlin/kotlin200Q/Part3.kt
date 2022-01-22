@@ -1,5 +1,7 @@
 package kotlin200Q
 
+enum class Mode {SELECTION, PEN, SHAPE, ERASER}
+
 fun main(args: Array<String>){
     People.name = "Singleton"
     People.age = 45
@@ -53,6 +55,28 @@ fun main(args: Array<String>){
 
     val func:() -> Int = toFunction<Int>(1107)
     println(func())
+
+    val pair = Pair1<Int, Double>(15, 0.12)
+    println(pair.toString())
+
+    val words = arrayOf("Whats", "Your", "Number")
+    printAll(*words)
+
+    val mode = Mode.PEN
+    when(mode) {
+        Mode.SELECTION -> println("선택 모드")
+        Mode.PEN -> println("펜 모드")
+        Mode.SHAPE -> println("도형 모드")
+        Mode.ERASER -> println("지우개 모드")
+    }
+
+    val outers: Outers = Outers.Three()
+    val text: String = when (outers) {
+        is Outers.One -> "첫번째"
+        is Outers.Two -> "두번째"
+        is Outers.Three -> "세번째"
+    }
+    println(text)
 }
 
 object People {
@@ -183,3 +207,26 @@ fun higherOrderEx() {
 fun returnFunc(num: Int): () -> Unit = { println(num)}
 
 fun <T> toFunction(value: T): () -> T = {value}
+
+class Pair1<A, B>(val first: A, val second: B) {
+    override fun toString() = "$first\n$second"
+}
+
+interface Plusable<T> {
+    operator fun plus(other: T): T
+}
+
+class Rectangle(val width: Int, val height: Int): Plusable<Rectangle> {
+    override fun plus(other: Rectangle) = Rectangle(width + other.width, height + other.height)
+    override fun toString() = "width: $width, height: $height"
+}
+
+fun printAll(vararg tokens: String) {
+    for (token in tokens) print("$token ")
+}
+
+sealed class Outers {
+    class One: Outers()
+    class Two: Outers()
+    class Three: Outers()
+}
