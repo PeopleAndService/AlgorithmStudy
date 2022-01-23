@@ -1,5 +1,10 @@
 package kotlin200Q
 
+import java.util.Timer
+import kotlin.concurrent.thread
+import kotlin.concurrent.timer
+import kotlin.system.measureNanoTime
+
 fun main() {
     val (a, b) = 1 to 4
     val (c, d) = Pair(1, 5)
@@ -12,6 +17,19 @@ fun main() {
     collectionMain()
     listMain()
     mapMain()
+    mutableCollectionMain()
+    sequenceMain()
+    collectionExtensionMain()
+    charSequenceMain()
+    stringMain()
+    stringMain()
+
+    // 어디서든 main() 종료하기 exitProcess(0)
+
+    println(measureNanoTime { // or measureTimeMillis
+        var sum = 0L
+        for (i in 1..100000000) sum += i
+    })
 }
 
 // comparable 인터페이스 (비교연산자 지원)
@@ -111,4 +129,178 @@ fun mapMain() {
     println(map.containsValue("바나나"))
     println(map["Apple"])
     println(map.getOrDefault("Cocoa", "코코아"))
+}
+
+// 변경할 수 있는 Mutable 컬렉션
+fun mutableCollectionMain() {
+    println("변경할 수 있는 Mutable 컬렉션 학습")
+    val mutableList: MutableCollection<Int> = mutableListOf(1, 2, 4, 2, 3, 2, 5)
+    println(mutableList)
+    mutableList.add(1); println(mutableList)
+    mutableList.addAll(listOf(2, 3, 4)); println(mutableList)
+    mutableList.remove(1); println(mutableList)
+    mutableList.removeAll(listOf(1, 2)); println(mutableList)
+    mutableList.clear(); println(mutableList)
+
+    val list = mutableListOf('c', 'a', 'z')
+    println(list)
+    list.add(1, '%'); println(list)
+    list.addAll(0, listOf('L', 'P')); println(list)
+    println(list.set(2, '/')); println(list)
+    println(list.removeAt(4)); println(list)
+
+    val set: MutableSet<Int> = mutableSetOf(1, 5, 7)
+    println(set)
+    println(set.add(5)); println(set)
+    println(set.addAll(listOf(3, 7))); println(set)
+}
+
+// Sequence (게으른 list)
+fun sequenceMain() {
+    println("Sequence 학습")
+    val seq: Sequence<Int> = sequenceOf(1, 2, 3)
+    for (i in seq) print("$i ")
+    println()
+}
+
+// 컬렉션 확장 함수
+fun collectionExtensionMain() {
+    println("Collection Extension 학습")
+    val origin = listOf(65, 66, 67, 68, 69)
+    println(origin.map {it.toChar()})
+    println(origin.mapIndexed{index, element ->
+        println("[$index]: $element")
+        element.toChar()
+    })
+    val to100 = 1..100
+    println(to100.mapNotNull {
+        if(it % 3 == 0) it
+        else null
+    })
+
+    val to50 = 1..50
+    println(to50.filter { it % 4 == 0 })
+    println(to50.filterNot { it % 4 == 0 })
+    println(to50.filterNotNull())
+    println(to50.filterIndexed{index, element -> element > 20})
+    println(to50.filterIsInstance<Long>())
+
+    val list = listOf(43, 76, 28, 19, 22, 68)
+    println(list.sorted())
+    println(list.sortedDescending())
+}
+
+// CharSequence 인터페이스
+fun charSequenceMain() {
+    println("CharSequence 인터페이스 학습")
+    val seq: CharSequence = "Hello"
+    println(seq.length)
+    println(seq[2])
+    println(seq.subSequence(1, 4))
+
+    val str: CharSequence = "https://www.naver.com"
+    println(str.startsWith("https://"))
+    println(str.endsWith(".com"))
+    println(str.removePrefix("https://"))
+    println(str.removeSuffix(".com"))
+    println(str.removeSurrounding("https://", ".com"))
+
+    val emptyStr = ""
+    val whiteSpaces = " "
+    val nullStr: String? = null
+    println(emptyStr.isEmpty())
+    println(whiteSpaces.isEmpty())
+    println(emptyStr.isBlank())
+    println(whiteSpaces.isBlank())
+    println(nullStr.isNullOrEmpty())
+    println(nullStr.isNullOrBlank())
+
+    val str1 = "   hello   "
+    println(str1.removeRange(0..5))
+    println(str1.padStart(20, '*'))
+    println(str1.padEnd(17, '*'))
+    println(str1.trimStart())
+    println(str1.trimEnd())
+    println(str1.trim())
+    println(str1.slice(4..6))
+    println(str1.subSequence(4..6))
+    println(str1.substring(4..6))
+    println(str1.reversed())
+
+    val hello: CharSequence = "안녕하세요.\n고맙습니다.\n반갑습니다."
+    val time: CharSequence = "2018-01-22"
+
+    println(hello.lines())
+    for (line in hello.lineSequence()) println(line)
+    println(time.split("-"))
+
+}
+
+// String 예제
+fun stringMain() {
+    println("String 학습")
+
+    val one = "Hello"
+    val two = "Kotlin"
+    val three = "JavaFx"
+    println(one + two)
+    println(one > two)
+    println(two > three)
+
+    val adage = "Love begets love."
+    println(adage.replace("love", "hate", ignoreCase = true))
+    println(adage.replaceFirst("love", "compliment", ignoreCase = true))
+    println(adage.replaceRange(5..10, "hello"))
+}
+
+fun runMain() {
+    println("run, let,  확장함수 학습")
+
+    val (a, b) = 10 to 5
+    (a * b - 2 * a).run {
+        if (this > 0) println(this)
+    }
+
+    (a * b - 2 * a).let { result: Int ->
+        if (result > 0) println(result)
+    }
+
+    val (c, d) = 3 to 7
+    with(a * b - b* b) {
+        println(this)
+        println(-this)
+    }
+}
+
+fun threadMain() {
+    thread (start = true){
+        print("Hello, ")
+        Thread.sleep(1000)
+        println("World!")
+    }
+    Thread.sleep(500)
+    print("Kotlin ")
+}
+
+fun timerMain() {
+    var i = 1
+    val t: Timer = timer(initialDelay = 1500, period = 250) {
+        println(i++)
+    }
+    Thread.sleep(2400)
+    t.cancel()
+}
+
+// 스레드 동기화하기
+private var obj = 0
+
+private fun objPlus() {
+    for (i in 1..1000) synchronized(obj) { obj++}
+}
+
+fun synchronizedMain() {
+    thread { objPlus() }
+    objPlus()
+    Thread.sleep(100)
+    println(obj)
 }
