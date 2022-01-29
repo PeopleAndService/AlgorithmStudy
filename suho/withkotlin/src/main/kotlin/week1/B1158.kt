@@ -24,7 +24,7 @@ fun main() {
     }
 }
 
-fun <T : Number> Queue<T>.printOrder(k: Int): T {
+private fun <T : Number> Queue<T>.printOrder(k: Int): T {
     repeat(k - 1) {
         this.offer(this.poll())
     }
