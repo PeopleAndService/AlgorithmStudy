@@ -6,8 +6,8 @@ import java.util.*
 
 // DFS와 BFS
 
-var graph = arrayOf<IntArray>()
-var visited = booleanArrayOf()
+private var graph = arrayOf<IntArray>()
+private var visited = booleanArrayOf()
 
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val (n, m, v) = this.readLine().split(" ").map { it.toInt() }
