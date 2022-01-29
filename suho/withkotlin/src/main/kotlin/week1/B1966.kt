@@ -24,9 +24,9 @@ fun main() {
     bw.close()
 }
 
-data class Document(val idx: Int, val priority: Int)
+private data class Document(val idx: Int, val priority: Int)
 
-fun print(queue: LinkedList<Document>, m: Int): Int {
+private fun print(queue: LinkedList<Document>, m: Int): Int {
     var order = 0
 
     while (!queue.isEmpty()) {
@@ -39,7 +39,7 @@ fun print(queue: LinkedList<Document>, m: Int): Int {
     return order
 }
 
-fun check(queue: LinkedList<Document>, cur: Document): Boolean {
+private fun check(queue: LinkedList<Document>, cur: Document): Boolean {
     for (i in queue.indices) {
         if (cur.priority < queue[i].priority) {
             queue.offer(cur)

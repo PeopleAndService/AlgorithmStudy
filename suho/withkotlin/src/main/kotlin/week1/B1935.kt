@@ -37,11 +37,11 @@ fun main() {
     br.close()
 }
 
-fun stoi(arg: String): Int {
+private fun stoi(arg: String): Int {
     return arg.toInt()
 }
 
-class B1935(private val operand: IntArray, private val exp: String) {
+private class B1935(private val operand: IntArray, private val exp: String) {
     private val answer = Stack<Double>()
 
     fun solution(): Double {
@@ -81,7 +81,7 @@ class B1935(private val operand: IntArray, private val exp: String) {
     )
 }
 
-enum class Operator { // 문자 연산자를 열거형 상수로 관리해봤습니다. -> when에서 else식 안쓰려고..
+private enum class Operator { // 문자 연산자를 열거형 상수로 관리해봤습니다. -> when에서 else식 안쓰려고..
 
     PLUS, MINUS, MULTIPLE, DIVIDE;
 

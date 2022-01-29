@@ -31,9 +31,9 @@ fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
 
-    val n = stoi(br.readLine())
+    val n = br.readLine().toInt()
     val input = br.readLine().split(" ")
-    val orders = IntArray(n) { stoi(input[it]) }
+    val orders = IntArray(n) { input[it].toInt() }
     orders.reverse() // 배열 뒤집기
 
     val list = LinkedList<Int>()
@@ -48,7 +48,7 @@ fun main() {
     br.close()
 }
 
-fun solution(orders: IntArray, deque: Deque<Int>, n: Int) {
+private fun solution(orders: IntArray, deque: Deque<Int>, n: Int) {
     for (i in 1..n) {
         when (orders[i-1]) {
             1 -> {
