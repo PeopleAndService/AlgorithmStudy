@@ -1,4 +1,4 @@
-package boj.silver
+package stack_queue
 
 // 괄호
 

@@ -1,4 +1,4 @@
-package boj.gold
+package stack_queue
 
 import java.lang.StringBuilder
 import java.util.*
