@@ -11,9 +11,9 @@ private val bw = BufferedWriter(OutputStreamWriter(System.out))
 private val dx = listOf(1, -1, 0, 0)
 private val dy = listOf(0, 0, 1, -1)
 
-val n = br.readLine().toInt()
-val map = List<String>(n) { br.readLine() }
-val visited = List(n) { MutableList(n) { false } }
+private val n = br.readLine().toInt()
+private val map = List<String>(n) { br.readLine() }
+private val visited = List(n) { MutableList(n) { false } }
 
 fun main() {
     val answer = mutableListOf<Int>()
