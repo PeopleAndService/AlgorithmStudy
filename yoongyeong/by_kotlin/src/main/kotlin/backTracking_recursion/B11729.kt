@@ -5,7 +5,7 @@ import kotlin.math.pow
 
 // 하노이 탑 이동 순서
 
-val bw = BufferedWriter(OutputStreamWriter(System.out))
+private val bw = BufferedWriter(OutputStreamWriter(System.out))
 
 fun main() {
     val n = readLine()!!.toInt()
