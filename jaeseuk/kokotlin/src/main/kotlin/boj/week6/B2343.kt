@@ -6,7 +6,7 @@ import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 import java.util.*
 
-//  절댓값 힙
+//  기타 레슨
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))

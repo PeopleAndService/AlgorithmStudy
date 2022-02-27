@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter
 import java.util.*
 import kotlin.math.abs
 
-//  기타 레슨
+//  절댓값 힙
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
