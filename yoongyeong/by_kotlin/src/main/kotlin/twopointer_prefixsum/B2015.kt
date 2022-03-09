@@ -24,5 +24,4 @@ fun main() {
     }
 
     print(answer)
-
 }
