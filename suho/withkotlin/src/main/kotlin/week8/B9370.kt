@@ -40,7 +40,6 @@ fun main() {
             g = nextToken().toInt()
             h = nextToken().toInt()
         }
-
         val inst = B9370(n, m, t, s, g, h)
         inst.input()
         bw.write(inst.solution())
