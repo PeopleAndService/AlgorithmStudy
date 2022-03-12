@@ -45,6 +45,5 @@ private fun dijkstra(cities: Array<MutableList<Pair<Int, Int>>>, start: Int, end
             }
         }
     }
-
     return costs[end]
 }
