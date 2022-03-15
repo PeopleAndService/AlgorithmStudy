@@ -22,7 +22,7 @@
   <summary>21.01. ~ 21.05. 스터디 시즌 1 진행</summary>
   <div markdown = "1">
     
-  ## 📚 교재
+  ### 📚 교재
   ~~[이것이 취업을 위한 코딩테스트다 with 파이썬](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162243077&orderClick=LEa&Kc=)~~
 
   ~~[GitHub](https://github.com/ndb796/python-for-coding-test)~~
