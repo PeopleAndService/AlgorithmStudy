@@ -1,7 +1,6 @@
 package week8
 
-import java.util.PriorityQueue
-import java.util.StringTokenizer
+import java.util.*
 
 /*
 플랫폼 : 백준
@@ -30,38 +29,46 @@ private const val MAX = 100_000
 
 fun main() {
     val (m, n) = with(StringTokenizer(br.readLine())) { IntArray(2) { nextToken().toInt() } }
-    val graph = Array(n) { br.readLine().map { it - '0' }.toIntArray() }
+    val inst = B1261(n, m)
 
-    val dist = Array(n) { IntArray(m) { MAX } }
-    dist[0][0] = 0
-    val queue = PriorityQueue<Edge>(compareBy { it.cost })
-    queue.offer(Edge(0, 0, 0))
-
-    while (queue.isNotEmpty()) {
-        val (r, c, cost) = queue.poll()
-
-        if (dist[r][c] < cost) continue
-
-        repeat(4) {
-            val nr = r + dr[it]
-            val nc = c + dc[it]
-            if (nr in 0 until n && nc in 0 until m) {
-                val temp = cost + graph[r][c]
-                if (dist[nr][nc] > temp) {
-                    dist[nr][nc] = temp
-                    queue.offer(Edge(nr, nc, temp))
-                }
-            }
-        }
-    }
-
-    bw.write("${dist[n-1][m-1]}")
+    bw.write("${inst.solution()}")
     bw.close()
     br.close()
 }
 
-private data class Edge(
-    val r: Int,
-    val c: Int,
-    val cost: Int
-)
+class B1261(private val n: Int, private val m: Int) {
+    private val graph = Array(n) { br.readLine().map { it - '0' }.toIntArray() }
+    private val dist = Array(n) { IntArray(m) { MAX } }
+
+    fun solution(): Int {
+        dist[0][0] = 0
+        val queue = PriorityQueue<Edge>(compareBy { it.cost })
+        queue.offer(Edge(0, 0, 0))
+
+        while (queue.isNotEmpty()) {
+            val (r, c, cost) = queue.poll()
+
+            if (dist[r][c] < cost) continue
+
+            repeat(4) {
+                val nr = r + dr[it]
+                val nc = c + dc[it]
+                if (nr in 0 until n && nc in 0 until m) {
+                    val temp = cost + graph[r][c]
+                    if (dist[nr][nc] > temp) {
+                        dist[nr][nc] = temp
+                        queue.offer(Edge(nr, nc, temp))
+                    }
+                }
+            }
+        }
+
+        return dist[n-1][m-1]
+    }
+
+    private data class Edge(
+        val r: Int,
+        val c: Int,
+        val cost: Int
+    )
+}
