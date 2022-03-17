@@ -22,8 +22,10 @@ fun main() {
     }
     bfs(1, 0)
     visited.fill(false)
+
     bfs(point, 0)
-    print(answer)
+    println(answer)
+
 }
 
 private fun bfs(v: Int, d: Int) {
