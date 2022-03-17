@@ -7,8 +7,6 @@
 
 [jaeseuk](https://github.com/jaeseuk)
 
-[Notion Page](https://www.notion.so/yg323/bafb2dc0df044e38a94064138de2b623)
-
 [BOJ Group](https://www.acmicpc.net/group/11658)
 
 ### 🔗 PS 사이트
