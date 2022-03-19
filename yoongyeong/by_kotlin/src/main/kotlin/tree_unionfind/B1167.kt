@@ -1,4 +1,4 @@
-package tree
+package tree_unionfind
 
 // 트리의 지름
 
