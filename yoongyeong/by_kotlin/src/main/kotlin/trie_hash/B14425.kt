@@ -58,3 +58,23 @@ private class Trie {
         if (flag && cur.isFinish) count++
     }
 }
+
+/*private val br = System.`in`.bufferedReader()
+private val bw = System.out.bufferedWriter()
+private val set = HashSet<String>()
+
+fun main(){
+
+    val (n,m) = br.readLine().split(' ').map{it.toInt()}
+    var answer=0
+    for(i in 0 until n){
+        set.add(br.readLine())
+    }
+    for(i in 0 until m){
+        if(set.contains(br.readLine()))
+            answer++
+    }
+
+    bw.write("$answer")
+    bw.close()
+}*/
