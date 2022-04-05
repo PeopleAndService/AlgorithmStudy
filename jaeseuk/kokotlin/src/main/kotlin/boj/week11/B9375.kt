@@ -5,21 +5,36 @@ import java.io.BufferedWriter
 import java.io.InputStreamReader
 import java.io.OutputStreamWriter
 
-//  수강신청
+//  패션왕 신해빈
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
 
-    val (k, l) = br.readLine().split(" ").map { it.toInt() }
-    val students = mutableMapOf<String, Int>()
+    repeat(br.readLine().toInt()) {
+        val n = br.readLine().toInt()
+        val clothes = mutableMapOf<String, Int>()
 
-    repeat(l) {
-        students[br.readLine()] = it
-    }
+        for (i in 0 until n) {
+            val clothesType = br.readLine().split(" ").last()
+            clothes[clothesType] = clothes.getOrDefault(clothesType, 0) + 1
+        }
 
-    students.entries.sortedBy { it.value }.take(k).forEach {
-        bw.write(it.key)
+        val clothesTypes = clothes.keys.toTypedArray()
+        var answer = 0
+
+        for (i in clothesTypes.indices) {
+            val clothesType = clothesTypes[i]
+            val clothesCnt = clothes[clothesType]!!
+
+            if (i == 0) {
+                answer = clothesCnt
+            } else {
+                answer += answer * clothesCnt + clothesCnt
+            }
+        }
+
+        bw.write("$answer")
         bw.newLine()
     }
 
